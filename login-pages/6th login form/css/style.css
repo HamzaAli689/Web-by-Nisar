@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1f1f47;
+    overflow: hidden;
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: rgba(225, 225, 225, .15);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, .37);
+    border: 1px solid rgba(225, 225, 225, .18);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 320px;
+    margin: 30px 0;
+    border-bottom: 2px solid white;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    color: white;
+    transition: .5s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label{
+    top: 5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1em;
+    padding: 0 30px 0 10px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 5px;
+    transform: translateY(-50%);
+    top: 50%;
+    color: white;
+    font-size: 1.2em;
+}
+.remember-forgot{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot a{
+    color: white;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 600;
+}
+.remember-forgot label input{
+    accent-color: #fa709a;
+    margin-right: 3px;
+}
+button{
+    width: 100%;
+    height: 45px;
+    background-color: #fa709a;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+}
+.register-link{
+    font-size: .9em;
+    text-align: center;
+    color: white;
+    margin: 25px 0 10px;
+}
+.register-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+.blob{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+   background: linear-gradient(180deg, rgba(47, 184, 225, .42)31.77%, #5c9df1 100%);
+   border-radius: 24% 76% 35% 65% / 27% 36% 64% 73% ;
+   transform: translate(-100px, -50px) rotate(-90deg);
+   transition: 1s cubic-bezier(.07, .8, .16, 1) ;
+   animation: animateBlob 20s infinite alternate;
+   cursor: pointer;
+}
+.blob:hover{
+    width: 520px;
+    height: 520px;
+    filter: blur(30px);
+    box-shadow: 
+        inset 0 0 0 5px rgba(225, 225, 225, .6),
+        inset 100px 100px 0 0 #fa709a,
+        inset 200px 200px 0 0 #784ba8,
+        inset 300px 300px 0 0 #2b86c5;
+}
+@keyframes animateBlob{
+    100%{
+        transform: translate(300px, 50px) rotate(-10deg);
+        border-radius: 76% 24% 33% 66% / 68% 55% 45% 25% ;
+    }
+}
+
