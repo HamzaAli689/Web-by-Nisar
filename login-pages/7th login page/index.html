@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7th Login Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body background="assets/bg.jpg">
+    <div class="full-page">
+        <div class="navbar">
+            <div>
+                <a href="#">NavBar</a>
+            </div>
+            <nav>
+                <ul id="main-items">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'">Login</button></li>
+                </ul>
+            </nav>
+        </div>
+           <div class="login-page" id="login-form">
+           <div class="form-box">
+            <div class="button-box">
+              <div class="btn"></div>
+              <button type="button" onclick="login()" class="toggel-btn">Log In</button>
+              
+           </div>
+           <form action="#" id="login" class="input-group-login">
+            <input type=" text" placeholder="Enter E-mail" class="input-field" required>
+            <input type=" password" placeholder="Enter Password" class="input-field" required>
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Login</button>
+           </form>
+           <form action="#" id="register" class="input-group-register">
+            <input type=" text" placeholder="First Name" class="input-field" required>
+            <input type=" text" placeholder="Last Name" class="input-field" required>
+            <input type=" email" placeholder="E-mail I'd" class="input-field" required>
+            <input type=" password" placeholder="Enter Password" class="input-field" required>
+            <input type=" password" placeholder="Confirm Password" class="input-field" required>
+            <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+            <button type="submit" class="submit-btn">Register</button>
+           </form>
+         </div>
+       </div>
+    </div>
+</body>
+</html>
