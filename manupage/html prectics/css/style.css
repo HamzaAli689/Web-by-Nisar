@@ -1,0 +1,29 @@
+.head{
+    background-color: rgb(255, 0, 0);
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.unodered{
+    background-color: rgb(236, 137, 137);
+    text-align: center;  
+    margin: 0;
+    padding: 0;
+}
+li{
+display: inline-block;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    margin: 0px;
+    padding: 14px 16px;
+    color: black;
+
+}
+li a:hover{
+    background-color: rgb(255, 99, 99);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}

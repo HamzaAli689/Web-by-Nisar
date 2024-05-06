@@ -1,0 +1,55 @@
+header{
+    background-color: rgb(255, 0, 51);
+    padding: 10px;
+    text-align: center;
+}
+ul {
+   /* list-style-type: none;*/
+    margin: 0;
+    padding: 0;
+    background-color: #fd7474;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block; /* Changed from float to inline-block */
+}
+
+li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+li a:hover {
+    background-color: #ee5454;
+    font-weight: bold;
+    color: white;
+}
+
+/* Centering the menu */
+.menu-container {
+    text-align: center;
+}
+#img1{
+
+    margin-top: 10px;
+    
+    height: 450px;
+    width: 300px;
+    display: inline-block;
+
+}
+h3{
+    margin: 2px;
+    font-size: 25px;
+}
+p{
+    margin: 2px; 
+}
+#outerdiv{
+    margin-left: 215px;
+}
