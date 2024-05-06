@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+body{
+    /* background-position: center; */
+    
+    background-size: 126%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+background
+{
+    object-fit: cover;
+}
+.outer-div{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    /*background-color: transparent;*/
+}
+.logo{
+    line-height: 70px;
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-left: 100px;
+}
+ul{  
+    float: right;
+    padding-right: 20px;
+}
+ul li{
+    display: inline-block;
+    line-height: 60px;
+    padding: 7px 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.search-icon{
+    float: right;
+    line-height: 70px;
+    padding-right: 10px;
+    cursor: pointer;
+    padding-right: 80px;
+}
+.user-icon{
+    float: right;
+    line-height: 70px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-weight: lighter;
+    
+}
+.blur_div{
+    backdrop-filter: blur(80px);
+    height: 470px;
+    width: 300px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.178);
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40%;
+    margin-right: 50%;
+}
+.inner-div{
+    height: 350px;
+    width: 250px;
+    margin-left: 8%;
+    margin-right: 50%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.726);
+    margin-top: 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+label.Login {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: darkgreen;
+}
+.input-field{
+    height: 35px;
+    width: 220px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    font-size: 15px;
+}
+span{
+    font-size: small;
+    padding-left: 10px;
+}
+button.login-btn{
+    height: 35px;
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    background-color: darkgreen;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+ul li a:hover{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
