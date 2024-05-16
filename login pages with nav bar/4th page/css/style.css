@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #F50057;
+}
+.logo{
+    line-height: 80px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 80px;
+}
+.nav-items{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    padding: 7px 15px;
+    line-height: 70px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#three-line{
+    float: right;
+    line-height: 80px;
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+
+.outter{
+    width: 75%;
+    height: 85%;
+    position: absolute;
+    box-shadow: 10px 10px 68px -6px rgba(0, 0, 0, 0.5);
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+    display: flex;
+    border-radius: 10px;
+}
+.photo{
+    height: 100%;
+    width: 50%;
+    padding: 0 50px;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+}
+.user-form{
+    background-color: #F50057;
+    padding: 50px;
+    height: 100%;
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+}
+.user-form h1{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.user-form i{
+    color: #F50057;
+    position: absolute;
+    margin: 21px 25px;
+}
+.text-field{
+    width: 100%;
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin: 10px;
+    border: none;
+    background: white;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.safty{
+    padding: 20px;
+}
+span{
+    color: white;
+    font-weight: 300;
+    padding: 10px;
+}
+button{
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    background: white;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F50057;
+}
