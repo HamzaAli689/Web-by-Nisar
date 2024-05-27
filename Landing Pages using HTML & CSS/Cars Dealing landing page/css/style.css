@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #eaeaea;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active
+{
+    color: #1743e3;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 150px;
+    
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    text-decoration: none;
+    transform: rotate(45deg);
+    transition: .3s;
+}
+
+.social-media a:hover{
+    border-color: red;
+}
+
+.social-media a i{
+    font-size: 24px;
+    color: red;
+    transform: rotate(-45deg);
+}
+
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 8% 0;
+    overflow: hidden;
+}
+
+.home-content{
+    max-width: 580px;
+}
+
+.home-content h1{
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.home-content h3{
+    font-size: 48px;
+    color: #1743e3;
+}
+
+.home-content p{
+    font-size: 16px;
+    margin: 15px 0 30px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1743e3;
+    border: 2px solid #1743e3;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #eaeaea;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #1743e3;
+    font-weight: 500;
+}
+
+.home-img{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    transform: rotate(45deg);
+    right: -8%;
+}
+
+.home-img .rhombus{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #eaeaea;
+    border: 22px solid #1743e3;
+}
+
+.home-img .rhombus img{
+    position: absolute;
+    top: 100px;
+    left: -220px;
+    max-width: 600px;
+    transform: rotate(-45deg);
+}
