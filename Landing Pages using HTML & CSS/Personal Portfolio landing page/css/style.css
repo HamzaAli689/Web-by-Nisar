@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(36, 35, 35);
+}
+
+.logo{
+    color: white;
+    cursor: pointer;
+}
+
+.logo span{
+    color: #f9004d;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: bold; 
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+ul li a:hover,
+ul li a.active
+{
+    color: #f9004d;
+    border-bottom: 2px solid white;
+}
+
+.btn{
+    padding: 10px 25px;
+    border: 1px solid #f9004d;
+    color: white;
+    background-color: #f9004d;
+    border-radius: 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.btn:hover{
+     transform: scale(1.2);
+}
+
+.home-content{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+
+.home-content h4{
+    color: #858585;
+    margin-bottom: 7px;
+}
+.home-content h1{
+    color: white;
+    font-size: 75px;
+}
+.home-content h1 span{
+    color: #f9004d;
+}
+.home-content h2{
+    color: white;
+    
+    font-size: 25px;
+}
+.email-form{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.emailtext{
+    height: 42px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid #f9004d;
+    padding: 0 10px;
+    padding-left: 10px;
+    padding-right: 125px;
+    font-size: 15px;
+    outline: none;
+}
+.sumit{
+    position: absolute;
+    right: 10px;
+    bottom: 7.5px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    border: 1px solid #f9004d;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+.photo{
+    height: 420px;
+    width: 450px;
+    margin-top: 70px;
+    margin-right: 100px;
+    float: right; 
+}
+.photo img{
+    height: 400px;
+    width: 450px;
+}
