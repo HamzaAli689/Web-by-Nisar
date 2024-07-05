@@ -2,9 +2,62 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .social-media{
-    height: 30px;
+    height: 40px;
     width: 100%;
     background-color:#f93b2a ;
+}
+.social-media ul{
+    float: right;
+    padding-right: 30px;
+}
+.social-media ul li{
+    display: inline-block;
+    padding: 3px 5px;
+    
+}
+.social-media ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+    cursor: pointer;
+}
+.social-media ul li:nth-child(4){
+    padding-left: 20px;
+}
+.social-media ul li a:hover{
+    color: rgb(216, 210, 210);
+}
+
+
+.navbar{
+    height: 85px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 85px;
+}
+.lines .bars{
+    font-size: 25px;
+    cursor: pointer;
+}
+.lines #check-btn{
+    display: none;
+}
+.brand-img{
+    cursor: pointer;
+}
+.btn-S button{
+  padding: 10px 15px;
+  background-color: #f93b2a;
+  border: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }
