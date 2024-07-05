@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.social-media{
+    height: 30px;
+    width: 100%;
+    background-color:#f93b2a ;
+}
