@@ -60,4 +60,42 @@
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  transition: .5s;
 }
+.btn-S button:hover{
+    transform: scale(1.2);
+}
+
+
+.navbar-items{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(33, 35, 38, 0.3) 0px 10px 10px -10px;
+}
+.navbar-items ul{
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navbar-items ul li{
+    line-height: 50px;
+
+}
+.navbar-items ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    padding: 7px 3px;
+}
+.navbar-items ul li a:hover,
+.navbar-items ul li a:active
+{
+    color: #f93b2a;
+}
+
+
+
+
