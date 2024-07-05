@@ -98,4 +98,77 @@
 
 
 
+div.posts{
+    height: 1500px;
+    width: 100%;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.posts .first-blog{
+    height: 1500px;
+    width: 24%;
+    background-color: white;
+}
+.posts .second-blog{
+    height: 1500px;
+    width: 48%;
+    background-color: rgb(150, 127, 255);
+}
+.posts .third-blog{
+    height: 1500px;
+    width: 24%;
+    background-color: rgb(148, 255, 127);
+}
+.first-blog img{
+    height: 350px;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.first-blog span{
+    position: absolute;
+    bottom: 16px;
+    background-color: #f93b2a;
+    font-weight: bolder;
+    font-size: 12px;
+    
+}
+.first-blog p{
+    font-weight: bold;
+    font-size: 19px;
+    padding: 20px 0px;
+}
+.first-blog h5{
+    color: rgb(114, 104, 104);
+    margin-bottom: 20px;
+}
+.first-blog .dosri-img{
+    height: 250px;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.first-blog h4{
+    width: 65px;
+    position: absolute;
+    bottom: -393px;
+    background-color: #f93b2a;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.posts .second-blog img{
+    height: 750px;
+    width: 100%;
+}
+
 
