@@ -99,7 +99,7 @@
 
 
 div.posts{
-    height: 1500px;
+    height: 1000px;
     width: 100%;
     margin-top: 65px;
     margin-bottom: 65px;
@@ -109,25 +109,26 @@ div.posts{
     padding: 0px 20px;
 }
 .posts .first-blog{
-    height: 1500px;
+    height: 1000px;
     width: 24%;
     background-color: white;
 }
 .posts .second-blog{
-    height: 1500px;
+    height: 1000px;
     width: 48%;
     background-color: rgb(150, 127, 255);
 }
 .posts .third-blog{
-    height: 1500px;
+    height: 1000px;
     width: 24%;
-    background-color: rgb(148, 255, 127);
+    background-color: white;
 }
 .first-blog img{
     height: 350px;
     position: relative;
     width: 100%;
     display: block;
+    cursor: pointer;
 }
 .first-blog span{
     position: absolute;
@@ -135,12 +136,17 @@ div.posts{
     background-color: #f93b2a;
     font-weight: bolder;
     font-size: 12px;
+    cursor: pointer;
     
 }
 .first-blog p{
     font-weight: bold;
     font-size: 19px;
     padding: 20px 0px;
+    cursor: pointer;
+}
+.first-blog p:hover{
+    color: #f93b2a;
 }
 .first-blog h5{
     color: rgb(114, 104, 104);
@@ -151,6 +157,7 @@ div.posts{
     position: relative;
     width: 100%;
     display: block;
+    cursor: pointer;
 }
 .first-blog h4{
     width: 65px;
@@ -159,7 +166,9 @@ div.posts{
     background-color: #f93b2a;
     font-weight: bolder;
     font-size: 12px;
+    cursor: pointer;
 }
+
 
 
 
@@ -167,8 +176,74 @@ div.posts{
 
 
 .posts .second-blog img{
-    height: 750px;
+    height: 700px;
     width: 100%;
+    position: relative;
+    display: block;
+    cursor: pointer;
 }
+.posts .second-blog h5{
+    position: absolute;
+    top: 150%;
+    background-color: #f93b2a;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.posts .second-blog h4{
+    position: absolute;
+    top: 120%;
+    background-color: #f93b2a;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.posts .second-blog span{
+    position: absolute;
+    top: 130%;
+    font-size: 30px;
+    background-color: #f93b2a;
+    color: white;
+    width: 450px;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+.third-blog img{
+    height: 250px;
+    position: relative;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.third-blog span{
+    position: absolute;
+    top: 78%;
+    background-color: #f93b2a;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.third-blog p{
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.third-blog p:hover{
+    color: #f93b2a;
+}
+.third-blog h5{
+    color: rgb(114, 104, 104);
+    margin-top: 20px;
+}
+
 
 
