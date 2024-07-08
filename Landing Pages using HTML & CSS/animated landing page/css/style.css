@@ -290,9 +290,12 @@ div.posts{
     cursor: pointer;
     margin-top: 20px;
 }
-
+.heading{
+    border-bottom: 1px solid gray;
+    margin: 0px 30px;
+}
 .heading h2{
-    padding-left: 30px;
+    
     color: #f93b2a;
     
 }
@@ -386,3 +389,181 @@ div.posts{
     margin-left: 110px;
 }
 
+
+.title{
+    padding: 0px 50px;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.title .title-1{
+    width: 65%;
+
+    border-bottom: 1px solid gray;
+}
+.title .title-1 h2{
+    color: #f93b2a;
+}
+.title .title-2{
+    width: 30%;
+    border-bottom: 1px solid gray;
+}
+.title .title-2 h2{
+    color: #f93b2a;  
+}
+.coloumn-posts{
+    width: 100%;
+    height: 2200px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.coloumn-posts .coloumn-posts-1{
+    width: 65%;
+}
+.coloumn-posts .coloumn-posts-1 .post-1{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.coloumn-posts .coloumn-posts-1 .post-1 .photo{
+    width: 50%;
+    height: 350px;
+}
+.coloumn-posts .coloumn-posts-1 .post-1 .photo img{
+    width: 100%;
+    height: 350px;
+    padding: 50px;
+    cursor: pointer;
+}
+.coloumn-posts .coloumn-posts-1 .post-1 .detaile{
+    width: 50%;
+    height: 350px;
+}
+.coloumn-posts .coloumn-posts-1 .post-1 .detaile p{
+    padding-top: 70px;
+    font-size: 12px;
+    color: #f93b2a;
+    font-weight: 600;
+}
+.coloumn-posts .coloumn-posts-1 .post-1 .detaile h3{
+    padding-top: 15px;
+    font-size: 21px;
+    cursor: pointer;
+}
+.coloumn-posts .coloumn-posts-1 .post-1 .detaile h3:hover{
+    color: #f93b2a;
+}
+.coloumn-posts .coloumn-posts-1 .post-1 .detaile h6{
+    padding-top: 15px;
+    font-size: 12px;
+    color: gray;
+}
+.coloumn-posts .coloumn-posts-1 .post-1 .detaile h6 span{
+    padding-top: 20px;
+    font-size: 13px;
+    color: black;
+}
+
+
+.coloumn-posts .coloumn-posts-2{
+    width: 30%;
+}
+.coloumn-posts .coloumn-posts-2 .post-2{
+    width: 100%;
+    height: 420px;
+}
+.coloumn-posts .coloumn-posts-2 .post-2 .photo{
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+}
+.coloumn-posts .coloumn-posts-2 .post-2 .photo img{
+    width: 100%;
+    height: 100%;
+}
+.coloumn-posts .coloumn-posts-2 .post-2 .details h2{
+    padding: 0px 20px;
+    font-size: 21px;
+    color: black;
+} 
+
+
+
+footer{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(6, 6, 46);
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+footer .pic h1 {
+    padding-top: 50px;
+     color: white;
+     font-size: 80px;
+}
+footer .pic h1 span {
+    color: #f93b2a;
+}
+footer .pic h2{
+    color: #f93b2a;
+     font-size: 35px;
+}
+footer .pic h2 span {
+    color: white;
+}
+footer .icons{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+footer .icons .icon{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(128, 128, 128, 0.651);
+    border-radius: 50px;
+}
+footer .icons .icon a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+footer .icons .icon a:hover{
+    color: #f93b2a;
+}
+footer .list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+footer .list ul li{
+    color: white;
+    padding: 7px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 70px;
+}
+.web{
+    color: rgba(128, 128, 128, 0.651);
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+}
